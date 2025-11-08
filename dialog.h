@@ -17,6 +17,10 @@ public:
     Dialog(QWidget *parent = nullptr);
     ~Dialog();
 
+private slots:
+    void onSubmitClicked();
+    void onClearClicked();
+
 private:
     Ui::Dialog *ui;
 };
