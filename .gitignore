@@ -73,3 +73,6 @@ CMakeLists.txt.user*
 *.exe
 /build
 /.qtc_clangd
+/paired
+/moc_predefs.h
+_codeql_detected_source_root
